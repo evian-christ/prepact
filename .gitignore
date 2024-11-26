@@ -1,0 +1,31 @@
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta data
+*.cs.meta
+*.unity.meta
+
+# Visual Studio / Rider specific
+.vscode/
+*.sln
+*.csproj
+*.pidb
+*.userprefs
+.idea/
+*.iml
+
+# MacOS specific
+.DS_Store
+
+# Git specific
+*.log
+*.lock
+*.bak
+*.swp
+*.tmp
