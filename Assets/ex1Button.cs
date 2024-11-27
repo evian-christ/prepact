@@ -10,27 +10,12 @@ public class ex1Button : MonoBehaviour
     {
         switch (counter)
         {
-            case 0:
-                buttonText.text = "Play";
-                break;
-            case 1:
-                buttonText.text = "Restart";
-                break;
-            case 2:
-                buttonText.text = "Quit";
-                break;
-            case 3:
-                buttonText.text = "Start";
-                break;
+            case 0: buttonText.text = "Play"; break;
+            case 1: buttonText.text = "Restart"; break;
+            case 2: buttonText.text = "Quit"; break;
+            case 3: buttonText.text = "Start"; break;
 
         }
-        if (counter < 3)
-        {
-            counter++;
-        }
-        else
-        {
-            counter = 0;
-        }
+        counter = (counter + 1) % 4;
     }
 }
